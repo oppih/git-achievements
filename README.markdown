@@ -24,12 +24,12 @@ For example here is the project maintainer's achievements page: http://icefox.gi
 If you are viewing a forked version of git-achievements you want to replace icefox
 with the github user account you want to see like so:
 
-http://<username>.github.com/git-achievements
+    http://<username>.github.com/git-achievements
 
 To push your achievements to GitHub first fork the project on GitHub,
 clone *your* repository and set the following config to true:
 
-git config --global achievement.upload "true"
+    git config --global achievement.upload "true"
 
 When an achievement is unlocked the index.html file will be overwritten,
 committed and then a 'git push origin' will be executed.
@@ -37,12 +37,13 @@ committed and then a 'git push origin' will be executed.
 
 Install
 -------
-Add git-achievements to your path and alias git to git-achievements
+1. fork this project to your GitHub account.
+2. clone this repository to you machine.
+3. Add git-achievements to your path and alias git to git-achievements
+>For example add the following to the end of your ~/.bash_profile
 
-For example add the following to the end of your ~/.bash_profile
-
-export PATH="$PATH:~/git/git-achievements"
-alias git="git-achievements"
+    export PATH=$PATH:$HOME/.git-achievements
+    alias git="git-achievements"
 
 You can get your first achievement by running
 

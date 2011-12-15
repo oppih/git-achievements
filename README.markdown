@@ -49,3 +49,8 @@ Install
 You can get your first achievement by running
 
     git achievements --help
+
+
+**Google Analytics**
+-------
+I added my Google analytics account ID. you can add yours in about line 450 or just remove these lines there.

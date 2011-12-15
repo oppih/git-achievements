@@ -21,7 +21,7 @@ feed so people can track your achievements).
 
 For example here is the project maintainer's achievements page: http://icefox.github.com/git-achievements
 
-If you are viewing a forked version of git-achievements you want to replace icefox
+If you are viewing a forked version of git-achievements you want to replace icefox/oppih
 with the github user account you want to see like so:
 
     http://<username>.github.com/git-achievements
@@ -38,8 +38,9 @@ committed and then a 'git push origin' will be executed.
 Install
 -------
 1. fork this project to your GitHub account.
-2. clone this repository to you machine.
+2. clone this repository to you machine. eg. clone to ~/.git-achievements
 3. Add git-achievements to your path and alias git to git-achievements
+
 >For example add the following to the end of your ~/.bash_profile
 
     export PATH=$PATH:$HOME/.git-achievements

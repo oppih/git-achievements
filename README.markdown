@@ -58,8 +58,10 @@ I added my Google analytics account ID. you can add yours in about line 450 or j
 Work on mutilple machines
 -------
 git-achievements will store your git action log in:
+
     $HOME/.git-achievements-action.log
     $HOME/git-achievements.log
+
 So if you want to continue your git achievements on anather machine, you should manually cp these two file.
 I have not file proper ways to keep the logs with git since everytime you use git(=git achievements),
   you will change the log file and it will require you to commit or stash...

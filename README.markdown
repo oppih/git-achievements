@@ -54,3 +54,17 @@ You can get your first achievement by running
 **Google Analytics**
 -------
 I added my Google analytics account ID. you can add yours in about line 450 or just remove these lines there.
+
+Work on mutilple machines
+-------
+git-achievements will store your git action log in:
+    $HOME/.git-achievements-action.log
+    $HOME/git-achievements.log
+So if you want to continue your git achievements on anather machine, you should manually cp these two file.
+I have not file proper ways to keep the logs with git since everytime you use git(=git achievements),
+  you will change the log file and it will require you to commit or stash...
+  A loop, right?
+
+So if you just want to use this 'git-achivements' as a tool to record your git commands achievements,
+   you can add these two log file into your reprository.
+   If you want to improve this project, you'd better comment out the alias line in your .bashrc :)

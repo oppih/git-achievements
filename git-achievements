@@ -26,6 +26,10 @@
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+# oppih Xue <letwego28@gmail.com>
+# added his Google analytics code into this script.
+# And changed the ACTIONLOGFILE in order to keep a uniq log on multiple machines.
+
 function git_achievements_command
 {
     case $2 in
@@ -491,8 +495,8 @@ var _gaq = _gaq || [];
     git push origin gh-pages
 }
 
-ACTIONLOGFILE="$HOME/.git-achievements-action.log"
-ACHIEVEMENTSLOGFILE="$HOME/.git-achievements.log"
+ACTIONLOGFILE="./.git-achievements-action.log"
+ACHIEVEMENTSLOGFILE="./.git-achievements.log"
 
 if [ ! "$1" = "achievements" ] ; then
     git "$@"

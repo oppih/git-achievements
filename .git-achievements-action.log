@@ -1,0 +1,202 @@
+help -a
+Date: Thu Dec 15 15:01:26 CST 2011
+achievements --help
+Date: Thu Dec 15 15:01:41 CST 2011
+achievements -p
+Date: Thu Dec 15 15:03:05 CST 2011
+achievements -p
+Date: Thu Dec 15 15:03:59 CST 2011
+config --global achievement.upload true
+Date: Thu Dec 15 15:05:28 CST 2011
+achievements --help
+Date: Thu Dec 15 15:06:14 CST 2011
+achievements -l
+Date: Thu Dec 15 15:06:23 CST 2011
+achievements --help
+Date: Thu Dec 15 15:17:38 CST 2011
+achievements --help
+Date: Thu Dec 15 15:17:58 CST 2011
+achievements -p
+Date: Thu Dec 15 15:18:28 CST 2011
+branch
+Date: Thu Dec 15 15:23:12 CST 2011
+symbolic-ref HEAD refs/heads/gh-pages
+Date: Thu Dec 15 15:26:22 CST 2011
+clean -fdx
+Date: Thu Dec 15 15:26:51 CST 2011
+achievements --help
+Date: Thu Dec 15 15:30:40 CST 2011
+commit -am First test commit via git-achievements
+Date: Thu Dec 15 15:33:11 CST 2011
+push origin gh-pages
+Date: Thu Dec 15 15:33:33 CST 2011
+add README.markdown
+Date: Thu Dec 15 15:37:04 CST 2011
+commit -am I write a new README in markdown
+Date: Thu Dec 15 15:37:30 CST 2011
+achievements --help
+Date: Thu Dec 15 16:07:36 CST 2011
+status
+Date: Thu Dec 15 17:08:56 CST 2011
+commit -am remove title string '-ub'
+Date: Thu Dec 15 17:09:24 CST 2011
+help -a
+Date: Thu Dec 15 17:09:35 CST 2011
+achievements -p
+Date: Thu Dec 15 17:09:45 CST 2011
+branch
+Date: Thu Dec 15 17:10:27 CST 2011
+pull
+Date: Thu Dec 15 17:10:41 CST 2011
+checkout p036
+Date: Thu Dec 15 17:10:57 CST 2011
+achievements -p
+Date: Thu Dec 15 17:11:19 CST 2011
+achievements -p
+Date: Thu Dec 15 17:11:34 CST 2011
+status
+Date: Thu Dec 15 17:18:23 CST 2011
+help -a
+Date: Thu Dec 15 17:18:26 CST 2011
+achievements -p
+Date: Thu Dec 15 17:18:38 CST 2011
+achievements -p
+Date: Thu Dec 15 17:18:53 CST 2011
+rm README
+Date: Thu Dec 15 17:21:34 CST 2011
+status
+Date: Thu Dec 15 17:21:37 CST 2011
+commit -am rm README
+Date: Thu Dec 15 17:21:55 CST 2011
+status
+Date: Thu Dec 15 18:45:50 CST 2011
+add README.markdown
+Date: Thu Dec 15 18:45:57 CST 2011
+commit -m update README using markdown
+Date: Thu Dec 15 18:46:24 CST 2011
+achievements -p
+Date: Thu Dec 15 18:46:35 CST 2011
+push origin
+Date: Thu Dec 15 18:47:06 CST 2011
+add README.markdown
+Date: Thu Dec 15 19:00:25 CST 2011
+commit -m some modify of README
+Date: Thu Dec 15 19:00:51 CST 2011
+push origin
+Date: Thu Dec 15 19:01:16 CST 2011
+achievements -p
+Date: Thu Dec 15 19:01:36 CST 2011
+checkout -b readme
+Date: Thu Dec 15 19:02:40 CST 2011
+branch
+Date: Thu Dec 15 19:02:45 CST 2011
+push origin --all
+Date: Thu Dec 15 19:03:09 CST 2011
+achievements -p
+Date: Thu Dec 15 19:03:32 CST 2011
+achievements -l
+Date: Thu Dec 15 19:03:38 CST 2011
+push --all
+Date: Thu Dec 15 19:04:36 CST 2011
+achievements -p
+Date: Thu Dec 15 19:04:52 CST 2011
+checkout -b ga
+Date: Thu Dec 15 19:06:15 CST 2011
+branch
+Date: Thu Dec 15 19:06:31 CST 2011
+status
+Date: Thu Dec 15 19:06:37 CST 2011
+add index.html
+Date: Thu Dec 15 19:18:39 CST 2011
+status
+Date: Thu Dec 15 19:19:22 CST 2011
+add git-achievements
+Date: Thu Dec 15 19:19:34 CST 2011
+commit -m add my Google Analytics account ID
+Date: Thu Dec 15 19:19:36 CST 2011
+status
+Date: Thu Dec 15 19:19:42 CST 2011
+add README.markdown
+Date: Thu Dec 15 19:19:45 CST 2011
+commit -m add GA information
+Date: Thu Dec 15 19:20:01 CST 2011
+achievements -p
+Date: Thu Dec 15 19:20:25 CST 2011
+branch
+Date: Thu Dec 15 19:20:35 CST 2011
+branch
+Date: Thu Dec 15 19:21:59 CST 2011
+checkout gh-pages
+Date: Thu Dec 15 19:22:04 CST 2011
+merge ga
+Date: Thu Dec 15 19:22:15 CST 2011
+status
+Date: Thu Dec 15 19:22:23 CST 2011
+achievements -p
+Date: Thu Dec 15 19:22:44 CST 2011
+branch
+Date: Thu Dec 15 19:24:02 CST 2011
+checkout -b features gh-pages
+Date: Thu Dec 15 19:24:45 CST 2011
+branch
+Date: Thu Dec 15 19:24:49 CST 2011
+--git-dir=.git config --get-regexp remote\..*\.url
+Date: Thu Dec 15 19:25:18 CST 2011
+push origin
+Date: Thu Dec 15 19:25:27 CST 2011
+branch
+Date: Thu Dec 15 19:25:31 CST 2011
+push --all
+Date: Thu Dec 15 19:25:49 CST 2011
+branch
+Date: Thu Dec 15 19:35:22 CST 2011
+checkout -b forkme features
+Date: Thu Dec 15 19:37:01 CST 2011
+branch
+Date: Thu Dec 15 19:37:18 CST 2011
+push --all
+Date: Thu Dec 15 19:37:31 CST 2011
+achievements -l
+Date: Thu Dec 15 19:37:49 CST 2011
+achievements -p
+Date: Thu Dec 15 19:38:02 CST 2011
+checkout gh-pages
+Date: Thu Dec 15 19:38:48 CST 2011
+branch
+Date: Thu Dec 15 19:38:50 CST 2011
+achievements -p
+Date: Thu Dec 15 19:39:06 CST 2011
+status
+Date: Thu Dec 15 19:51:57 CST 2011
+branch
+Date: Thu Dec 15 19:51:59 CST 2011
+push --all
+Date: Thu Dec 15 19:52:11 CST 2011
+branch
+Date: Fri Dec 16 14:50:14 CST 2011
+pull
+Date: Fri Dec 16 14:50:28 CST 2011
+reflog
+Date: Fri Dec 16 15:07:01 CST 2011
+help -a
+Date: Fri Dec 16 15:07:15 CST 2011
+reset HEAD 6045038d
+Date: Fri Dec 16 15:08:03 CST 2011
+branch
+Date: Fri Dec 16 15:08:11 CST 2011
+status
+Date: Fri Dec 16 15:08:30 CST 2011
+push --all
+Date: Fri Dec 16 15:08:43 CST 2011
+reflog
+Date: Fri Dec 16 15:08:50 CST 2011
+reflog
+Date: Fri Dec 16 15:10:21 CST 2011
+status
+Date: Fri Dec 16 15:12:13 CST 2011
+achievements -p
+Date: Fri Dec 16 15:12:27 CST 2011
+branch
+Date: Fri Dec 16 15:35:57 CST 2011
+checkout -b fixlog gh-pages
+Date: Fri Dec 16 15:36:45 CST 2011

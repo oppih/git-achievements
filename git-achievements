@@ -495,8 +495,8 @@ var _gaq = _gaq || [];
     git push origin gh-pages
 }
 
-ACTIONLOGFILE="./.git-achievements-action.log"
-ACHIEVEMENTSLOGFILE="./.git-achievements.log"
+ACTIONLOGFILE="$HOME/.git-achievements-action.log"
+ACHIEVEMENTSLOGFILE="$HOME/.git-achievements.log"
 
 if [ ! "$1" = "achievements" ] ; then
     git "$@"

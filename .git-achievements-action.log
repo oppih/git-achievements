@@ -200,3 +200,17 @@ branch
 Date: Fri Dec 16 15:35:57 CST 2011
 checkout -b fixlog gh-pages
 Date: Fri Dec 16 15:36:45 CST 2011
+add .git-achievements-action.log
+Date: Fri Dec 16 15:40:18 CST 2011
+commit -m add .git-achievements-action.log
+Date: Fri Dec 16 15:40:46 CST 2011
+add .git-achievements.log
+Date: Fri Dec 16 15:41:02 CST 2011
+commit -m add .git -achievements.log
+Date: Fri Dec 16 15:41:18 CST 2011
+status
+Date: Fri Dec 16 15:41:40 CST 2011
+diff
+Date: Fri Dec 16 15:41:45 CST 2011
+status
+Date: Fri Dec 16 15:42:09 CST 2011
